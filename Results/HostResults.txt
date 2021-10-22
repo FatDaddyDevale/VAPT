@@ -1,0 +1,4 @@
+# Nmap 7.60 scan initiated Fri Oct 22 13:37:52 2021 as: nmap -sP -oN Results/HostResults.txt 8.8.8.8
+Nmap scan report for dns.google (8.8.8.8)
+Host is up (0.0076s latency).
+# Nmap done at Fri Oct 22 13:37:52 2021 -- 1 IP address (1 host up) scanned in 0.31 seconds

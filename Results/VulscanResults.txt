@@ -1,0 +1,95 @@
+# Nmap 7.60 scan initiated Fri Oct 22 13:56:56 2021 as: nmap -sV -Pn --script vulscan/vulscan.nse -oN Results/VulscanResults.txt www.certifiedhacker.com
+Nmap scan report for www.certifiedhacker.com (162.241.216.11)
+Host is up (0.30s latency).
+rDNS record for 162.241.216.11: box5331.bluehost.com
+Not shown: 980 closed ports
+PORT      STATE    SERVICE     VERSION
+21/tcp    open     ftp         Pure-FTPd
+| vulscan: OpenVAS (Nessus) - http://www.openvas.org:
+| No findings
+|_
+22/tcp    open     ssh         OpenSSH 5.3 (protocol 2.0)
+| vulscan: OpenVAS (Nessus) - http://www.openvas.org:
+| No findings
+|_
+25/tcp    filtered smtp
+26/tcp    open     smtp        Exim smtpd 4.94.2
+| vulscan: OpenVAS (Nessus) - http://www.openvas.org:
+| No findings
+|_
+53/tcp    open     domain      ISC BIND 9.8.2rc1
+| vulscan: OpenVAS (Nessus) - http://www.openvas.org:
+| No findings
+|_
+80/tcp    open     http        Apache httpd
+| http-server-header: 
+|   Apache
+|_  nginx/1.19.10
+| vulscan: OpenVAS (Nessus) - http://www.openvas.org:
+| No findings
+|_
+110/tcp   open     pop3        Dovecot pop3d
+| vulscan: OpenVAS (Nessus) - http://www.openvas.org:
+| No findings
+|_
+143/tcp   open     imap        Dovecot imapd
+| vulscan: OpenVAS (Nessus) - http://www.openvas.org:
+| No findings
+|_
+443/tcp   open     ssl/http    Apache httpd
+| http-server-header: 
+|   Apache
+|_  nginx/1.19.10
+| vulscan: OpenVAS (Nessus) - http://www.openvas.org:
+| No findings
+|_
+465/tcp   open     ssl/smtp    Exim smtpd 4.94.2
+| vulscan: OpenVAS (Nessus) - http://www.openvas.org:
+| No findings
+|_
+587/tcp   open     smtp        Exim smtpd 4.94.2
+| vulscan: OpenVAS (Nessus) - http://www.openvas.org:
+| No findings
+|_
+993/tcp   open     imaps?
+995/tcp   open     pop3s?
+2222/tcp  open     ssh         OpenSSH 5.3 (protocol 2.0)
+| vulscan: OpenVAS (Nessus) - http://www.openvas.org:
+| No findings
+|_
+2323/tcp  filtered 3d-nfsd
+2525/tcp  filtered ms-v-worlds
+3005/tcp  filtered deslogin
+3306/tcp  open     mysql       MySQL 5.6.41-84.1
+| vulscan: OpenVAS (Nessus) - http://www.openvas.org:
+| No findings
+|_
+5432/tcp  open     postgresql  PostgreSQL DB
+| fingerprint-strings: 
+|   SMBProgNeg: 
+|     SFATAL
+|     C0A000
+|     Munsupported frontend protocol 65363.19778: server supports 1.0 to 3.0
+|     Fpostmaster.c
+|     L1624
+|_    RProcessStartupPacket
+| vulscan: OpenVAS (Nessus) - http://www.openvas.org:
+| No findings
+|_
+50002/tcp filtered iiimsf
+3 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port993-TCP:V=7.60%I=7%D=10/22%Time=617276D5%P=x86_64-pc-linux-gnu%r(SS
+SF:Lv23SessionReq,5,"\x80\x03\0\0\x01");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port995-TCP:V=7.60%I=7%D=10/22%Time=617276D5%P=x86_64-pc-linux-gnu%r(SS
+SF:Lv23SessionReq,5,"\x80\x03\0\0\x01");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port5432-TCP:V=7.60%I=7%D=10/22%Time=617276D5%P=x86_64-pc-linux-gnu%r(S
+SF:MBProgNeg,85,"E\0\0\0\x84SFATAL\0C0A000\0Munsupported\x20frontend\x20pr
+SF:otocol\x2065363\.19778:\x20server\x20supports\x201\.0\x20to\x203\.0\0Fp
+SF:ostmaster\.c\0L1624\0RProcessStartupPacket\0\0");
+Service Info: OS: Red Hat Enterprise Linux 6; CPE: cpe:/o:redhat:enterprise_linux:6
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Oct 22 14:01:58 2021 -- 1 IP address (1 host up) scanned in 302.28 seconds

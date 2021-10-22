@@ -1,0 +1,184 @@
+[94m[Info] [0mVulnerability scan started...
+[94m[Info] [0mVerbose Mode. Check vulnerabilities of installed packages...
+
+[92m[*] [0mVulnerability Found!
+[92m[>] [0mProduct: apparmor 2.12-4ubuntu5.1
+[92m[+] [0mCVEID: CVE-2016-1585	Score: 7.5	URL: https://vulmon.com/vulnerabilitydetails?qid=CVE-2016-1585
+[92m[+] [0mCVEID: CVE-2008-0731	Score: 7.5	URL: https://vulmon.com/vulnerabilitydetails?qid=CVE-2008-0731
+
+
+[92m[*] [0mVulnerability Found!
+[92m[>] [0mProduct: bash 4.4.18-2ubuntu1.2
+[92m[+] [0mCVEID: CVE-2016-9401	Score: 2.1	URL: https://vulmon.com/vulnerabilitydetails?qid=CVE-2016-9401
+
+
+[92m[*] [0mVulnerability Found!
+[92m[>] [0mProduct: bzip2 1.0.6-8.1ubuntu0.2
+[92m[+] [0mCVEID: CVE-2005-1260	Score: 5	URL: https://vulmon.com/vulnerabilitydetails?qid=CVE-2005-1260
+
+
+[92m[*] [0mVulnerability Found!
+[92m[>] [0mProduct: coreutils 8.28-1ubuntu1
+[92m[+] [0mCVEID: CVE-2014-9471	Score: 7.5	URL: https://vulmon.com/vulnerabilitydetails?qid=CVE-2014-9471
+[92m[+] [0mCVEID: CVE-2013-0221	Score: 4.3	URL: https://vulmon.com/vulnerabilitydetails?qid=CVE-2013-0221
+[91m	[*][0m Available Exploits!
+[91m	[!] [0mExploit ID: EDB38232	URL: https://vulmon.com/exploitdetails?qidtp=EDB&qid=38232 (GNU Coreutils 'sort' Text Utility - Local Buffer Overflow)
+[92m[+] [0mCVEID: CVE-2013-0221	Score: 4.3	URL: https://vulmon.com/vulnerabilitydetails?qid=CVE-2013-0221
+[92m[+] [0mCVEID: CVE-2016-2781	Score: 2.1	URL: https://vulmon.com/vulnerabilitydetails?qid=CVE-2016-2781
+[92m[+] [0mCVEID: CVE-2013-0222	Score: 2.1	URL: https://vulmon.com/vulnerabilitydetails?qid=CVE-2013-0222
+[92m[+] [0mCVEID: CVE-2013-0223	Score: 1.9	URL: https://vulmon.com/vulnerabilitydetails?qid=CVE-2013-0223
+
+
+[92m[*] [0mVulnerability Found!
+[92m[>] [0mProduct: cpio 2.12+dfsg-6ubuntu0.18.04.1
+[92m[+] [0mCVEID: CVE-2010-4226	Score: 5	URL: https://vulmon.com/vulnerabilitydetails?qid=CVE-2010-4226
+
+
+[92m[*] [0mVulnerability Found!
+[92m[>] [0mProduct: curl 7.58.0-2ubuntu3.8
+[92m[+] [0mCVEID: CVE-2011-2192	Score: 4.3	URL: https://vulmon.com/vulnerabilitydetails?qid=CVE-2011-2192
+
+
+[92m[*] [0mVulnerability Found!
+[92m[>] [0mProduct: firefox 76.0+build2-0ubuntu0.18.04.1
+[92m[+] [0mCVEID: CVE-2009-2469	Score: 10	URL: https://vulmon.com/vulnerabilitydetails?qid=CVE-2009-2469
+[92m[+] [0mCVEID: CVE-2007-2176	Score: 10	URL: https://vulmon.com/vulnerabilitydetails?qid=CVE-2007-2176
+[92m[+] [0mCVEID: CVE-2009-4102	Score: 9.3	URL: https://vulmon.com/vulnerabilitydetails?qid=CVE-2009-4102
+[92m[+] [0mCVEID: CVE-2009-1597	Score: 9.3	URL: https://vulmon.com/vulnerabilitydetails?qid=CVE-2009-1597
+[92m[+] [0mCVEID: CVE-2007-4013	Score: 9.3	URL: https://vulmon.com/vulnerabilitydetails?qid=CVE-2007-4013
+[92m[+] [0mCVEID: CVE-2008-4059	Score: 7.5	URL: https://vulmon.com/vulnerabilitydetails?qid=CVE-2008-4059
+[92m[+] [0mCVEID: CVE-2015-8960	Score: 6.8	URL: https://vulmon.com/vulnerabilitydetails?qid=CVE-2015-8960
+[92m[+] [0mCVEID: CVE-2011-0064	Score: 6.8	URL: https://vulmon.com/vulnerabilitydetails?qid=CVE-2011-0064
+[92m[+] [0mCVEID: CVE-2009-4129	Score: 5.8	URL: https://vulmon.com/vulnerabilitydetails?qid=CVE-2009-4129
+[92m[+] [0mCVEID: CVE-2009-4130	Score: 5.8	URL: https://vulmon.com/vulnerabilitydetails?qid=CVE-2009-4130
+[92m[+] [0mCVEID: CVE-2009-2409	Score: 5.1	URL: https://vulmon.com/vulnerabilitydetails?qid=CVE-2009-2409
+[92m[+] [0mCVEID: CVE-2016-7153	Score: 5	URL: https://vulmon.com/vulnerabilitydetails?qid=CVE-2016-7153
+[92m[+] [0mCVEID: CVE-2016-7152	Score: 5	URL: https://vulmon.com/vulnerabilitydetails?qid=CVE-2016-7152
+[92m[+] [0mCVEID: CVE-2009-4630	Score: 5	URL: https://vulmon.com/vulnerabilitydetails?qid=CVE-2009-4630
+[92m[+] [0mCVEID: CVE-2007-3827	Score: 5	URL: https://vulmon.com/vulnerabilitydetails?qid=CVE-2007-3827
+[92m[+] [0mCVEID: CVE-2007-1970	Score: 5	URL: https://vulmon.com/vulnerabilitydetails?qid=CVE-2007-1970
+[92m[+] [0mCVEID: CVE-2003-1492	Score: 5	URL: https://vulmon.com/vulnerabilitydetails?qid=CVE-2003-1492
+[92m[+] [0mCVEID: CVE-2015-4000	Score: 4.3	URL: https://vulmon.com/vulnerabilitydetails?qid=CVE-2015-4000
+[92m[+] [0mCVEID: CVE-2015-2808	Score: 4.3	URL: https://vulmon.com/vulnerabilitydetails?qid=CVE-2015-2808
+[92m[+] [0mCVEID: CVE-2013-2566	Score: 4.3	URL: https://vulmon.com/vulnerabilitydetails?qid=CVE-2013-2566
+
+
+[92m[*] [0mVulnerability Found!
+[92m[>] [0mProduct: ftp 0.17-34
+[92m[+] [0mCVEID: CVE-1999-0082	Score: 10	URL: https://vulmon.com/vulnerabilitydetails?qid=CVE-1999-0082
+[92m[+] [0mCVEID: CVE-1999-0201	Score: 6.4	URL: https://vulmon.com/vulnerabilitydetails?qid=CVE-1999-0201
+
+
+[92m[*] [0mVulnerability Found!
+[92m[>] [0mProduct: fuse 2.9.7-1ubuntu1
+[92m[+] [0mCVEID: CVE-2010-3879	Score: 5.8	URL: https://vulmon.com/vulnerabilitydetails?qid=CVE-2010-3879
+[91m	[*][0m Available Exploits!
+[91m	[!] [0mExploit ID: EDB34953	URL: https://vulmon.com/exploitdetails?qidtp=EDB&qid=34953 (FUSE fusermount Tool - Race Condition)
+[92m[+] [0mCVEID: CVE-2010-3879	Score: 5.8	URL: https://vulmon.com/vulnerabilitydetails?qid=CVE-2010-3879
+
+
+[92m[*] [0mVulnerability Found!
+[92m[>] [0mProduct: gdb 8.1-0ubuntu3.2
+[92m[+] [0mCVEID: CVE-2019-1010180	Score: 6.8	URL: https://vulmon.com/vulnerabilitydetails?qid=CVE-2019-1010180
+
+
+[92m[*] [0mVulnerability Found!
+[92m[>] [0mProduct: gedit 3.28.1-1ubuntu1.2
+[92m[+] [0mCVEID: CVE-2009-0314	Score: 6.9	URL: https://vulmon.com/vulnerabilitydetails?qid=CVE-2009-0314
+
+
+[92m[*] [0mVulnerability Found!
+[92m[>] [0mProduct: git 1:2.17.1-1ubuntu0.7
+[92m[+] [0mCVEID: CVE-2010-2542	Score: 7.5	URL: https://vulmon.com/vulnerabilitydetails?qid=CVE-2010-2542
+
+
+[92m[*] [0mVulnerability Found!
+[92m[>] [0mProduct: logrotate 3.11.0-0.1ubuntu1
+[92m[+] [0mCVEID: CVE-2011-1549	Score: 6.3	URL: https://vulmon.com/vulnerabilitydetails?qid=CVE-2011-1549
+[92m[+] [0mCVEID: CVE-2011-1548	Score: 6.3	URL: https://vulmon.com/vulnerabilitydetails?qid=CVE-2011-1548
+[92m[+] [0mCVEID: CVE-2011-1550	Score: 6.3	URL: https://vulmon.com/vulnerabilitydetails?qid=CVE-2011-1550
+
+
+[92m[*] [0mVulnerability Found!
+[92m[>] [0mProduct: ntfs-3g 1:2017.3.23-2ubuntu0.18.04.2
+[92m[+] [0mCVEID: CVE-2007-5159	Score: 4.6	URL: https://vulmon.com/vulnerabilitydetails?qid=CVE-2007-5159
+
+
+[92m[*] [0mVulnerability Found!
+[92m[>] [0mProduct: python 2.7.15~rc1-1
+[92m[+] [0mCVEID: CVE-2007-4559	Score: 6.8	URL: https://vulmon.com/vulnerabilitydetails?qid=CVE-2007-4559
+
+
+[92m[*] [0mVulnerability Found!
+[92m[>] [0mProduct: rsync 3.1.2-2.1ubuntu1.1
+[92m[+] [0mCVEID: CVE-2002-0080	Score: 2.1	URL: https://vulmon.com/vulnerabilitydetails?qid=CVE-2002-0080
+
+
+[92m[*] [0mVulnerability Found!
+[92m[>] [0mProduct: samba 2:4.7.6+dfsg~ubuntu-0ubuntu2.1
+[92m[+] [0mCVEID: CVE-2011-2411	Score: 9	URL: https://vulmon.com/vulnerabilitydetails?qid=CVE-2011-2411
+
+
+[92m[*] [0mVulnerability Found!
+[92m[>] [0mProduct: strace 4.21-1ubuntu1
+[92m[+] [0mCVEID: CVE-2000-0006	Score: 2.6	URL: https://vulmon.com/vulnerabilitydetails?qid=CVE-2000-0006
+
+
+[92m[*] [0mVulnerability Found!
+[92m[>] [0mProduct: tar 1.29b-2ubuntu0.1
+[92m[+] [0mCVEID: CVE-2007-4476	Score: 7.5	URL: https://vulmon.com/vulnerabilitydetails?qid=CVE-2007-4476
+[91m	[*][0m Available Exploits!
+[91m	[!] [0mExploit ID: EDB30766	URL: https://vulmon.com/exploitdetails?qidtp=EDB&qid=30766 (GNU TAR 1.15.91 / CPIO 2.5.90 - 'safer_name_suffix' Remote Denial of Service)
+[92m[+] [0mCVEID: CVE-2007-4476	Score: 7.5	URL: https://vulmon.com/vulnerabilitydetails?qid=CVE-2007-4476
+
+
+[92m[*] [0mVulnerability Found!
+[92m[>] [0mProduct: telnet 0.17-41
+[92m[+] [0mCVEID: CVE-2005-0469	Score: 7.5	URL: https://vulmon.com/vulnerabilitydetails?qid=CVE-2005-0469
+[92m[+] [0mCVEID: CVE-1999-1090	Score: 7.5	URL: https://vulmon.com/vulnerabilitydetails?qid=CVE-1999-1090
+
+
+[92m[*] [0mVulnerability Found!
+[92m[>] [0mProduct: thunderbird 1:68.7.0+build1-0ubuntu0.18.04
+[92m[+] [0mCVEID: CVE-2012-1938	Score: 9.3	URL: https://vulmon.com/vulnerabilitydetails?qid=CVE-2012-1938
+[92m[+] [0mCVEID: CVE-2009-3980	Score: 9.3	URL: https://vulmon.com/vulnerabilitydetails?qid=CVE-2009-3980
+[92m[+] [0mCVEID: CVE-2009-3982	Score: 9.3	URL: https://vulmon.com/vulnerabilitydetails?qid=CVE-2009-3982
+[92m[+] [0mCVEID: CVE-2009-3981	Score: 9.3	URL: https://vulmon.com/vulnerabilitydetails?qid=CVE-2009-3981
+[92m[+] [0mCVEID: CVE-2009-1840	Score: 9.3	URL: https://vulmon.com/vulnerabilitydetails?qid=CVE-2009-1840
+[92m[+] [0mCVEID: CVE-2008-4060	Score: 7.5	URL: https://vulmon.com/vulnerabilitydetails?qid=CVE-2008-4060
+[92m[+] [0mCVEID: CVE-2008-3835	Score: 7.5	URL: https://vulmon.com/vulnerabilitydetails?qid=CVE-2008-3835
+[92m[+] [0mCVEID: CVE-2012-5830	Score: 6.8	URL: https://vulmon.com/vulnerabilitydetails?qid=CVE-2012-5830
+[92m[+] [0mCVEID: CVE-2009-3983	Score: 6.8	URL: https://vulmon.com/vulnerabilitydetails?qid=CVE-2009-3983
+[92m[+] [0mCVEID: CVE-2009-3984	Score: 6.8	URL: https://vulmon.com/vulnerabilitydetails?qid=CVE-2009-3984
+[92m[+] [0mCVEID: CVE-2009-1307	Score: 6.8	URL: https://vulmon.com/vulnerabilitydetails?qid=CVE-2009-1307
+[92m[+] [0mCVEID: CVE-2009-4630	Score: 5	URL: https://vulmon.com/vulnerabilitydetails?qid=CVE-2009-4630
+[92m[+] [0mCVEID: CVE-2009-1309	Score: 4.3	URL: https://vulmon.com/vulnerabilitydetails?qid=CVE-2009-1309
+[92m[+] [0mCVEID: CVE-2009-1308	Score: 4.3	URL: https://vulmon.com/vulnerabilitydetails?qid=CVE-2009-1308
+[92m[+] [0mCVEID: CVE-2009-1306	Score: 4.3	URL: https://vulmon.com/vulnerabilitydetails?qid=CVE-2009-1306
+
+
+[92m[*] [0mVulnerability Found!
+[92m[>] [0mProduct: unzip 6.0-21ubuntu1
+[92m[+] [0mCVEID: CVE-2008-0888	Score: 9.3	URL: https://vulmon.com/vulnerabilitydetails?qid=CVE-2008-0888
+
+
+[92m[*] [0mVulnerability Found!
+[92m[>] [0mProduct: util-linux 2.31.1-0.4ubuntu3.6
+[92m[+] [0mCVEID: CVE-2007-5191	Score: 6.9	URL: https://vulmon.com/vulnerabilitydetails?qid=CVE-2007-5191
+
+
+[92m[*] [0mVulnerability Found!
+[92m[>] [0mProduct: xinput 1.6.2-1build1
+[92m[+] [0mCVEID: CVE-2007-6427	Score: 9.3	URL: https://vulmon.com/vulnerabilitydetails?qid=CVE-2007-6427
+
+
+[92m[*] [0mVulnerability Found!
+[92m[>] [0mProduct: yelp 3.26.0-1ubuntu2
+[92m[+] [0mCVEID: CVE-2008-3533	Score: 10	URL: https://vulmon.com/vulnerabilitydetails?qid=CVE-2008-3533
+[91m	[*][0m Available Exploits!
+[91m	[!] [0mExploit ID: EDB32248	URL: https://vulmon.com/exploitdetails?qidtp=EDB&qid=32248 (Yelp 2.23.1 - Invalid URI Format String)
+[92m[+] [0mCVEID: CVE-2008-3533	Score: 10	URL: https://vulmon.com/vulnerabilitydetails?qid=CVE-2008-3533
+
+
+[95m[Status] [0mTotal Exploits: 4
+

@@ -1,0 +1,37 @@
+# Nmap 7.60 scan initiated Fri Oct 22 13:46:59 2021 as: nmap -sV --version-intensity 5 -oN Results/VersionResults.txt certifiedhacker.com
+Nmap scan report for certifiedhacker.com (162.241.216.11)
+Host is up (0.31s latency).
+rDNS record for 162.241.216.11: box5331.bluehost.com
+Not shown: 980 closed ports
+PORT      STATE    SERVICE     VERSION
+21/tcp    open     ftp         Pure-FTPd
+22/tcp    open     ssh         OpenSSH 5.3 (protocol 2.0)
+25/tcp    filtered smtp
+26/tcp    open     smtp        Exim smtpd 4.94.2
+53/tcp    open     domain      ISC BIND 9.8.2rc1
+80/tcp    open     http        Apache httpd
+110/tcp   open     pop3        Dovecot pop3d
+143/tcp   open     imap        Dovecot imapd
+443/tcp   open     ssl/https?
+465/tcp   open     ssl/smtp    Exim smtpd 4.94.2
+587/tcp   open     smtp        Exim smtpd 4.94.2
+993/tcp   open     imaps?
+995/tcp   open     pop3s?
+2222/tcp  open     ssh         OpenSSH 5.3 (protocol 2.0)
+2323/tcp  filtered 3d-nfsd
+2525/tcp  filtered ms-v-worlds
+3005/tcp  filtered deslogin
+3306/tcp  open     mysql       MySQL 5.6.41-84.1
+5432/tcp  open     postgresql  PostgreSQL DB
+50002/tcp filtered iiimsf
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port993-TCP:V=7.60%I=5%D=10/22%Time=617274A7%P=x86_64-pc-linux-gnu%r(SS
+SF:Lv23SessionReq,5,"\x80\x03\0\0\x01");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port995-TCP:V=7.60%I=5%D=10/22%Time=617274A8%P=x86_64-pc-linux-gnu%r(SS
+SF:Lv23SessionReq,5,"\x80\x03\0\0\x01");
+Service Info: OS: Red Hat Enterprise Linux 6; CPE: cpe:/o:redhat:enterprise_linux:6
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Oct 22 13:52:19 2021 -- 1 IP address (1 host up) scanned in 320.44 seconds
